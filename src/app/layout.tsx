@@ -42,9 +42,7 @@ export default function RootLayout({
         />
       </head>
       <body className="">
-        <ApplicationShell>
         {children}
-        </ApplicationShell>
         </body>
     </html>
   )

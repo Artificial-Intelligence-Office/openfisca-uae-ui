@@ -1,9 +1,9 @@
 import { Author } from "@/components/Author";
+import Details from "@/components/Details";
 import { Footer } from "@/components/Footer";
 import { FreeChapters } from "@/components/FreeChapters";
 import Hero from "@/components/Hero";
 import { Introduction } from "@/components/Introduction";
-import { NavBar } from "@/components/NavBar";
 import OpenFiscaForm from "@/components/OpenFiscaForm";
 import { Pricing } from "@/components/Pricing";
 import { Resources } from "@/components/Resources";
@@ -17,7 +17,7 @@ import avatarImage2 from "@/images/avatars/avatar-2.png";
 export default function Home() {
   return (
     <>
-      <OpenFiscaForm />
+      <Details />
     </>
   );
 }
