@@ -452,7 +452,7 @@ export default function Details() {
                 </dl>
                 <div className="mt-6 border-t border-gray-900/5 px-6 py-6">
                   <a
-                    href="#"
+                    href="https://mof.gov.ae/wp-content/uploads/2022/12/Federal-Decree-Law-No.-47-of-2022-EN.pdf"
                     className="text-sm font-semibold leading-6 text-gray-900"
                   >
                     Corporate Tax Guide <span aria-hidden="true">&rarr;</span>
@@ -720,7 +720,7 @@ export default function Details() {
               </p>
             </div>
 
-            <div className="lg:col-start-3  border p-2 rounded-lg">
+            <div className="lg:col-start-3   p-2 rounded-lg">
               {/* Activity feed */}
 
               <p className=" text-sm text-gray-500 ">
