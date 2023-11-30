@@ -773,6 +773,13 @@ export default function Details() {
             <span className="font-medium text-gray-900">OpenFisca</span>
             <br />
             Checksum version 4a8383f
+            <br />
+            <a
+              href="https://code.gov.ae/marwan.alserkal/openfisca-uaecorporatetax"
+              className="text-sm font-semibold leading-6 text-gray-900"
+            >
+              code.gov.ae <span aria-hidden="true">&rarr;</span>
+            </a>
           </dd>
         </div>
         <div className="mt-8 sm:mt-6 sm:border-t sm:border-gray-900/5 sm:pl-4 sm:pt-6">
@@ -780,7 +787,14 @@ export default function Details() {
           <dd className="mt-2 text-gray-500">
             <span className="font-medium text-gray-900">Next.JS</span>
             <br />
-            Hosted at code.gov.ae
+            version 13.4.16
+            <br />
+            <a
+              href="https://code.gov.ae/ai-office/uae-corporate-tax-calculator-ui"
+              className="text-sm font-semibold leading-6 text-gray-900"
+            >
+              code.gov.ae <span aria-hidden="true">&rarr;</span>
+            </a>
           </dd>
         </div>
       </dl>
