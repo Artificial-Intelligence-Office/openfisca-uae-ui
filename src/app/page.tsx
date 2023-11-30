@@ -17,9 +17,7 @@ import avatarImage2 from "@/images/avatars/avatar-2.png";
 export default function Home() {
   return (
     <>
-      <Introduction />
       <OpenFiscaForm />
-      <Footer />
     </>
   );
 }

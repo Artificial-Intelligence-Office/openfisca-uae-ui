@@ -21,6 +21,11 @@ export default function OpenFiscaForm() {
     {
       revenue: 0,
       ebitda: 0,
+      interest_expense: 0,
+      interest_income: 0,
+      depreciation: 0,
+      amortization: 0,
+      carry_forward_interest: 0,
     }
   );
   const [answer, setAnswer] = useState(0);
@@ -121,29 +126,30 @@ export default function OpenFiscaForm() {
   return (
     <section id="introduction" aria-label="Introduction">
       <Container className="text-lg tracking-tight text-slate-700 mb-10">
-        <SectionHeading number="1" id="table-of-contents-title">
-          Table of contents
-        </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Get a look at all of the content covered in the book. Everything you
-          need to know is inside.
+        <p className="mt-4 text-lg tracking-tight text-slate-700">
+          This is a corporate tax calculator designed on the Corporate Tax Law
+          in the United Arab Emirates. The Federal Decree-Law No. 47 of 2022 on
+          the Taxation of Corporations and Businesses was signed on the 3rd of
+          October 2022, thereby providing the legislative foundation for
+          implementing a federal tax on corporations and business profits, known
+          as Corporate Tax.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          “Everything Starts as a Square” is comprised of 240 tightly edited,
-          highly visual pages designed to teach you everything you need to know
-          about icon design with no unnecessary filler.
+          The provisions of the new Corporate Tax Law are applicable starting
+          from tax periods commencing on or after the 1st of June 2023, this is
+          poised to offer robust guidance on the principlesand practices of
+          Corporate Tax in the UAE.
         </p>
-        <form className="mt-4">
+
+        <p className="mt-4 text-lg tracking-tight text-slate-700">
+          The aim is to simplify the comprehension of the provisions of the
+          Corporate Tax Law, by offering a simple calculator that estimates the
+          amount of tax payable for a corporation in the UAE in a given tax
+          period.
+        </p>
+        <form className="mt-4 ">
           <div className="space-y-12">
             <div className="border-b border-gray-900/10 pb-12">
-              <h2 className="text-base font-semibold leading-7 text-gray-900">
-                Profile
-              </h2>
-              <p className="mt-1 text-sm leading-6 text-gray-600">
-                This information will be displayed publicly so be careful what
-                you share.
-              </p>
-
               <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div className="sm:col-span-4">
                   <label
