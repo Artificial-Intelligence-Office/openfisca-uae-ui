@@ -720,13 +720,10 @@ export default function Details() {
               </p>
             </div>
 
-            <div className="lg:col-start-3">
+            <div className="lg:col-start-3  border p-2 rounded-lg">
               {/* Activity feed */}
-              <h2 className="text-sm font-semibold leading-6 text-gray-900 mb-4">
-                Background
-              </h2>
 
-              <p className=" text-sm text-gray-500">
+              <p className=" text-sm text-gray-500 ">
                 This is a corporate tax calculator designed on the Corporate Tax
                 Law in the United Arab Emirates. The Federal Decree-Law No. 47
                 of 2022 on the Taxation of Corporations and Businesses was
