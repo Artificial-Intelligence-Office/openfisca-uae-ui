@@ -343,7 +343,7 @@ export default function Details() {
                 />
                 <h1>
                   <div className="text-sm leading-6 text-gray-500">
-                    Open<span className="text-gray-700">Fisca</span>
+                    Ministry of <span className="text-gray-700">Finance</span>
                   </div>
                   <div className="mt-1 text-base font-semibold leading-6 text-gray-900">
                     Corporate Tax Calculator
@@ -455,7 +455,7 @@ export default function Details() {
                     href="https://mof.gov.ae/wp-content/uploads/2022/12/Federal-Decree-Law-No.-47-of-2022-EN.pdf"
                     className="text-sm font-semibold leading-6 text-gray-900"
                   >
-                    Corporate Tax Guide <span aria-hidden="true">&rarr;</span>
+                    Corporate Tax Law <span aria-hidden="true">&rarr;</span>
                   </a>
                 </div>
               </div>
@@ -520,7 +520,7 @@ export default function Details() {
                   <tr className="border-b border-gray-100">
                     <td className="max-w-0 px-0 py-5 align-top">
                       <div className="truncate font-medium text-gray-900">
-                        EBIDTA
+                        Adjusted EBIDTA
                       </div>
                       <div className="truncate text-gray-500"></div>
                     </td>
@@ -661,7 +661,7 @@ export default function Details() {
                       <button
                         type="submit"
                         onClick={handleCalculate}
-                        className="bg-gray-900 p-1 rounded font-bold hover:bg-gray-500"
+                        className="bg-gray-900 p-1 rounded font-bold hover:bg-gray-500 px-4"
                       >
                         Calculate
                       </button>
