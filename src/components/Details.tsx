@@ -209,7 +209,10 @@ export default function Details() {
   const handleCalculate = async (event: React.FormEvent) => {
     event.preventDefault();
 
-    const response = await fetch("http://127.0.0.1:5000/calculate", {
+    const serverURL =
+      process.env.NEXT_PUBLIC_SERVER_URL || "http://127.0.0.1:5000";
+
+    const response = await fetch(`${serverURL}/calculate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
