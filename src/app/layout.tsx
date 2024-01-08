@@ -3,7 +3,6 @@ import { Inter } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
-import ApplicationShell from '@/components/ApplicationShell'
 
 const inter = Inter({
   subsets: ['latin'],
